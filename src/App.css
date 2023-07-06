@@ -1,11 +1,23 @@
+body {
+  background-color: #dedce1;
+}
+
 .App {
   text-align: center;
+  width: 100%;
 }
+
 fieldset {
   margin-left: 20%;
   margin-right: 20%;
-  background-color: rgb(204, 215, 204);
+  /* background-color: rgb(204, 215, 204); */
 }
-.name-color{
+
+.name-color {
   color: blue;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
 }
