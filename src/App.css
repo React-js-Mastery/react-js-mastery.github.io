@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+fieldset {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(204, 215, 204);
+}
+.name-color{
+  color: blue;
+}
