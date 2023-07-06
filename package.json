@@ -1,6 +1,6 @@
 {
-  "name": "gpt-3-ui",
-  "homepage":"https://react-js-mastery.github.io/react-app/",
+  "name": "react-app",
+  "homepage": "https://react-js-mastery.github.io/react-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
