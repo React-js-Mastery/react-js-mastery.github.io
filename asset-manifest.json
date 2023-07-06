@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.f88e2e94.css",
+    "main.js": "/react-app/static/js/main.b062d1b3.js",
+    "static/media/Ajay-Dhangar.jpg": "/react-app/static/media/Ajay-Dhangar.d3fc001d6903f2e10d84.jpg",
+    "index.html": "/react-app/index.html",
+    "main.f88e2e94.css.map": "/react-app/static/css/main.f88e2e94.css.map",
+    "main.b062d1b3.js.map": "/react-app/static/js/main.b062d1b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f88e2e94.css",
+    "static/js/main.b062d1b3.js"
+  ]
+}
