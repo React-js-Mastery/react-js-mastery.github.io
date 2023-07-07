@@ -2,7 +2,11 @@
     width: 15em;
     margin: 0 0.2em;
     /* float: left; */
-    background: #ff030323;          
+    background: #ff030323;  
+    border-radius: 10px;        
+}
+.container:hover{
+    box-shadow: 4px 4px 8px #262626;
 }
 .pic img{
     width: 100%;
@@ -11,13 +15,19 @@
 .title{
     font-weight: bold;
     margin-bottom: 1em;
+    padding: 3px;
+}
+.channel{
+    font-weight: bold;
 }
 .channel, .view{
     font-size: small;
     color: #4c4040;
     margin-bottom: 0.2em;
+    padding-left: 8px;    
+    padding-bottom: 8px;
 }
 
 .view span{
-    padding: 0 0.5em;
+    padding: 0 0.5em;    
 }

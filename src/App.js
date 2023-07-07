@@ -1,26 +1,26 @@
 
-import React, { useEffect } from 'react';
+import React from 'react'; // , { useEffect }
 
 import Profile from "./component/profile/Profile";
 import Video from "./component/video/Video";
 
-import AjImg from './component/userData/img/Ajay-Dhangar.jpg';
-import CodeImg from './component/userData/img/img.jpg';
+import AjImg from './images/thumb/thunb.png';
+import CodeImg from './images/thumb/thunb.png';
 
 import "./App.css";
 import VideoArrayObject from './component/video/VideoArrayObject';
 
 
-const MyAge = () => {
-  const age = 22;
-  useEffect(() => {
-    console.log('My age is successfully rendered.');
-  });
+// const MyAge = () => {
+//   const age = 22;
+//   useEffect(() => {
+//     console.log('My age is successfully rendered.');
+//   });
 
-  return <div><h2>My age is {age}.</h2></div>;
-};
+//   return <div><h2>My age is {age}.</h2></div>;
+// };
 
-const name = 'Ajay Dhangar'
+// const name = 'Ajay Dhangar'
 function App() {
 
   let myVideos = [
@@ -68,16 +68,63 @@ function App() {
       view: '5M',
       time: '4 Months ago',
       verified: true,
+    },
+    {
+      id: 6,
+      image: CodeImg,
+      title: 'Git & GitHub Mastery',
+      channel: 'CodeMastermindHQ',
+      view: '6M',
+      time: '8 Months ago',
+      verified: true,
+    },
+    {
+      id: 7,
+      image: CodeImg,
+      title: 'DSA Mastery',
+      channel: 'Ajay Dhangar',
+      view: '50M',
+      time: '1 year ago',
+      verified: true,
+    },
+    {
+      id: 8,
+      image: CodeImg,
+      title: 'Node Mastery',
+      channel: 'CodeMastermindHQ',
+      view: '2M',
+      time: '5 Months ago',
+      verified: true,
+    },
+    {
+      id: 9,
+      image: CodeImg,
+      title: 'Express Mastery',
+      channel: 'Ajay Dhangar',
+      view: '1.3M',
+      time: '3 Months ago',
+      verified: true,
+    },
+    {
+      id: 10,
+      image: CodeImg,
+      title: 'Java Mastery',
+      channel: 'Ajay Dhangar',
+      view: '11.3M',
+      time: '8 Months ago',
+      verified: false,
     }
   ]
   
   return (
     <>
       <div className="App">
-        <h1>Hello World!</h1>
-        <Name />
-        <MyAge />
+        {/* <h1>Hello World!</h1> */}
+        {/* <Name /> */}
+        {/* <MyAge /> */}
         <Profile />
+
+        <div className='title-of-video'><h2>Top Courses</h2></div>
 
         <div className="videos">
           <Video title="HTML Mstery" channel="CodeMastermindHQ" view="507K" time="1 month ago" verified={true} />
@@ -108,15 +155,15 @@ function App() {
   );
 }
 
-function Name() {
-  const nameColor = "name-color";
-  return (
-    <>
-      <div className="App">
-        <h2>My name is <spen className={nameColor}> {name}</spen>.</h2>
-      </div>
-    </>
-  );
-}
+// function Name() {
+//   const nameColor = "name-color";
+//   return (
+//     <>
+//       <div className="App">
+//         <h2>My name is <spen className={nameColor}> {name}</spen>.</h2>
+//       </div>
+//     </>
+//   );
+// }
 
 export default App;

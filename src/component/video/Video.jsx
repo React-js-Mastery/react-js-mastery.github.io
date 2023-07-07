@@ -1,5 +1,5 @@
-import picImg from '../userData/img/Ajay-Dhangar.jpg'
-import pic2Img from '../userData/img/img.jpg'
+import picImg from '../../images/thumb/thunb.png'
+import pic2Img from '../../images/thumb/thunb.png'
 import './Video.css'
 function Video(props) {
     let channelName;

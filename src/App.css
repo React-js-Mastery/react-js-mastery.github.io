@@ -2,8 +2,7 @@ body {
   background-color: #dedce1;
 }
 
-.App {
-  text-align: center;
+.App {  
   width: 100%;
 }
 
@@ -20,4 +19,8 @@ fieldset {
 .videos {
   display: flex;
   flex-wrap: wrap;
+}
+.title-of-video{
+  text-align: center;
+  font-size: 26px;
 }

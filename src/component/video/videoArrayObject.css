@@ -4,4 +4,8 @@
     float: left;
     background: #ff030323;
     margin-bottom: 20px;
+    border-radius: 10px;
+}
+.video-container:hover{
+    box-shadow: 4px 4px 8px #262626;
 }
