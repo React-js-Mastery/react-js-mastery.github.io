@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.f0652022.css",
-    "main.js": "/react-app/static/js/main.a4bf19b2.js",
+    "main.css": "/react-app/static/css/main.7d2d1499.css",
+    "main.js": "/react-app/static/js/main.71c1fec4.js",
+    "static/media/thunb.png": "/react-app/static/media/thunb.5319c64ac076a309e549.png",
     "static/media/img.jpg": "/react-app/static/media/img.8026cf86b7d6dbcd6796.jpg",
     "static/media/Ajay-Dhangar.jpg": "/react-app/static/media/Ajay-Dhangar.d3fc001d6903f2e10d84.jpg",
     "index.html": "/react-app/index.html",
-    "main.f0652022.css.map": "/react-app/static/css/main.f0652022.css.map",
-    "main.a4bf19b2.js.map": "/react-app/static/js/main.a4bf19b2.js.map"
+    "main.7d2d1499.css.map": "/react-app/static/css/main.7d2d1499.css.map",
+    "main.71c1fec4.js.map": "/react-app/static/js/main.71c1fec4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0652022.css",
-    "static/js/main.a4bf19b2.js"
+    "static/css/main.7d2d1499.css",
+    "static/js/main.71c1fec4.js"
   ]
 }
