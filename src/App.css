@@ -23,4 +23,25 @@ fieldset {
 .title-of-video{
   text-align: center;
   font-size: 26px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery{
+  /* clear: both; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+h1{
+  color: rgb(252, 251, 253);    
+  text-align: center;
+  font-size: 32px;
+  text-shadow: 4px 4px 8px #262626;
+}
+h1:hover{
+  color: green;
+}
+.translate{
+  clear: both;
 }

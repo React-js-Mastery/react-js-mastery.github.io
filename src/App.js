@@ -6,11 +6,12 @@ import Video from "./component/video/Video";
 
 import AjImg from './images/thumb/thunb.png';
 import CodeImg from './images/thumb/thunb.png';
+import Translate from './component/translater/Translate';
 
 import "./App.css";
 import VideoArrayObject from './component/video/VideoArrayObject';
 
-
+import Gallery from './component/galary/Gallery'
 // const MyAge = () => {
 //   const age = 22;
 //   useEffect(() => {
@@ -115,15 +116,19 @@ function App() {
       verified: false,
     }
   ]
-  
+
   return (
     <>
       <div className="App">
+        <h1>Hello Everyone! Well Come to my Site.</h1>
         {/* <h1>Hello World!</h1> */}
         {/* <Name /> */}
         {/* <MyAge /> */}
-        <Profile />
 
+        <Profile />
+        <div className='gallery'>
+          <Gallery />
+        </div>
         <div className='title-of-video'><h2>Top Courses</h2></div>
 
         <div className="videos">
@@ -133,22 +138,26 @@ function App() {
           <Video title="JavaScript Mstery" channel="CodeMastermindHQ" view="1307K" time="1 month ago" verified={true} />
           <Video title="React Mstery" channel="Ajay Dhangar" view="200K" time="1 month ago" verified={false} />
         </div>
-        
+
         <div className='resolve-issue'></div>
 
         <div className='title-of-video'><h2>All Courses</h2></div>
         {
-          myVideos.map(video =><VideoArrayObject className="myAllVideo"
-              id={video.id}
-              image={video.image}
-              title={video.title}
-              channel={video.channel}
-              view={video.view}
-              time={video.time}
-              verified={video.verified}
-            />
+          myVideos.map(video => <VideoArrayObject className="myAllVideo"
+            id={video.id}
+            image={video.image}
+            title={video.title}
+            channel={video.channel}
+            view={video.view}
+            time={video.time}
+            verified={video.verified}
+          />
           )
         }
+
+        <div className="translate">
+          <Translate />
+        </div>
 
       </div>
     </>

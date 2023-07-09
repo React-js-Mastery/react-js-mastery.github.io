@@ -11,7 +11,6 @@ import './Profile.css'
 function Profile() {
   return (
     <div>
-      <h1>Hello Everyone! Well Come to my Site.</h1>
       <div className="users">
         <Users img={img1} title="Software Engineer" age={22} name='Ajay Dhangar' />
         <Users img={img2} title="Web Developer" age={25} name='Shivaya Coder' />

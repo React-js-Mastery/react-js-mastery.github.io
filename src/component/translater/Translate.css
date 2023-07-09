@@ -1,0 +1,30 @@
+.translate-container{
+    text-align: center;
+    
+}
+.translate-div{
+    padding: 10px;
+}
+.translate-select{
+    padding: 5px;
+}
+.translate-textarea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+.translate-btn{
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgba(128, 255, 0, 0.803);
+    border: none;
+    box-shadow: 2px 4px 2px 1px #262626;
+}
+.translate-btn:hover{
+    color: rgb(255, 0, 0);
+    background-color: #fff;
+    box-shadow: 2px 4px 2px 1px #262626;
+
+}

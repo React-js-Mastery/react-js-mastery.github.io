@@ -4,7 +4,7 @@ import './Video.css'
 function Video(props) {
     let channelName;
     if (props.verified) {
-        channelName = <div className="channel">{props.channel} 🌟</div>;
+        channelName = <div className="channel">{props.channel} ✔</div>;
     }
     else {
         channelName = <div className="channel">{props.channel}</div>;
@@ -14,7 +14,7 @@ function Video(props) {
             <div className="pic">
                 {props.verified ? <img src={pic2Img} alt="" className="user-image" /> : <img src={picImg} alt="" className="user-image" />}
             </div>
-            <div className="title">{props.title} {props.verified && '🌟🌟🌟'}</div>
+            <div className="title">{props.title} {props.verified && '★★★'}</div>
             {channelName}
             <br />
             <div className="view">
