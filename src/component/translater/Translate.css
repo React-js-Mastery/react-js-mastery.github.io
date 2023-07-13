@@ -28,3 +28,7 @@
     box-shadow: 2px 4px 2px 1px #262626;
 
 }
+textarea{
+    border-radius: 10px;
+    padding: 5px;
+}

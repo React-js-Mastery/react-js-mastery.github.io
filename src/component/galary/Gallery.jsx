@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { sculptureList } from '../../data/data';
+import './Gallery.css';
 
 export default function Gallery() {
   const [index, setIndex] = useState(0);
@@ -8,6 +9,9 @@ export default function Gallery() {
   function handleNextClick() {
     setIndex(index + 1);
   }
+  function handlePreviewClick() {
+    setIndex(index - 1);
+  }
 
   function handleMoreClick() {
     setShowMore(!showMore);
@@ -15,25 +19,42 @@ export default function Gallery() {
 
   let sculpture = sculptureList[index];
   return (
-    <section>
-      <button onClick={handleNextClick}>
-        Next
-      </button>
+    <section className='my-gallery'>
+      <div className="clicked-buttons">
+        <div className="preview">
+          <button className='btn preBtn' onClick={handlePreviewClick}>
+            Preview
+          </button>
+        </div>
+        <div className="next">
+          <button className='btn nextBtn' onClick={handleNextClick}>
+            Next
+          </button>
+        </div>
+      </div>
       <h2>
-        <i>{sculpture.name} </i> 
+        <i>{sculpture.name} </i>
         by {sculpture.artist}
       </h2>
-      <h3>  
+      <h3>
         ({index + 1} of {sculptureList.length})
       </h3>
-      <button onClick={handleMoreClick}>
-        {showMore ? 'Hide' : 'Show'} details
-      </button>
-      {showMore && <p>{sculpture.description}</p>}
-      <img 
-        src={sculpture.url} 
-        alt={sculpture.alt}
-      />
+      <div className="my-gallery-container">
+        <div className="clickable-content">
+          <button className='btn showBtn' onClick={handleMoreClick}>
+            {showMore ? 'Hide' : 'Show'} details
+          </button>
+        </div>
+        <div className="show-content">
+          {showMore && <p className='my-text-content'>{sculpture.description}</p>}
+        </div>
+        <div className="image-content">
+          <img className='my-content-img'
+            src={sculpture.url}
+            alt={sculpture.alt}
+          />
+        </div>
+      </div>
     </section>
   );
 }
