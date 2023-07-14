@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/react-app/static/css/main.1e80d824.css",
-    "main.js": "/react-app/static/js/main.33d9f7ae.js",
+    "main.css": "/react-app/static/css/main.c6cc0b7d.css",
+    "main.js": "/react-app/static/js/main.2f3babd9.js",
     "static/media/thunb.png": "/react-app/static/media/thunb.5319c64ac076a309e549.png",
     "static/media/img.jpg": "/react-app/static/media/img.8026cf86b7d6dbcd6796.jpg",
     "static/media/Ajay-Dhangar.jpg": "/react-app/static/media/Ajay-Dhangar.d3fc001d6903f2e10d84.jpg",
+    "static/media/react.svg": "/react-app/static/media/react.cf48a28022f917b8344f94facaf98a95.svg",
+    "static/media/css3.svg": "/react-app/static/media/css3.9ef9806578b331fb2f928e26438b2465.svg",
+    "static/media/express-js.svg": "/react-app/static/media/express-js.b02bf41963de88194f719070fba53719.svg",
+    "static/media/node-js.svg": "/react-app/static/media/node-js.f0d8604060d98291f74e4b1689cc93d9.svg",
+    "static/media/javascript.svg": "/react-app/static/media/javascript.b0c691a890bf57db1f87523384aaf3a4.svg",
+    "static/media/github.svg": "/react-app/static/media/github.b3d09eb58a6f234b8deba278a41e3479.svg",
+    "static/media/mongodb.svg": "/react-app/static/media/mongodb.e724ad15967faee78912f00241651cad.svg",
+    "static/media/git.svg": "/react-app/static/media/git.4923210e3334eac537d01ec71a20863c.svg",
     "index.html": "/react-app/index.html",
-    "main.1e80d824.css.map": "/react-app/static/css/main.1e80d824.css.map",
-    "main.33d9f7ae.js.map": "/react-app/static/js/main.33d9f7ae.js.map"
+    "static/media/html.svg": "/react-app/static/media/html.4e2ab8ccc39dc599dd234fb733cb65ed.svg",
+    "main.c6cc0b7d.css.map": "/react-app/static/css/main.c6cc0b7d.css.map",
+    "main.2f3babd9.js.map": "/react-app/static/js/main.2f3babd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e80d824.css",
-    "static/js/main.33d9f7ae.js"
+    "static/css/main.c6cc0b7d.css",
+    "static/js/main.2f3babd9.js"
   ]
 }
