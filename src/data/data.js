@@ -1,62 +1,67 @@
+import html from './dev-img/html.svg';
+import css from './dev-img/css3.svg';
+import javascript from './dev-img/javascript.svg';
+import react from './dev-img/react.svg';
+import node from './dev-img/node-js.svg';
+import mongodb from './dev-img/mongodb.svg';
+import express from './dev-img/express-js.svg';
+import git from './dev-img/git.svg';
+import github from './dev-img/github.svg';
+
+
 export const sculptureList = [{
     name: 'HTML Mastery',
     artist: 'Ajay Dhangar',
-    description: 'Although Colvin is predominantly known for abstract themes that allude to pre-Hispanic symbols, this gigantic sculpture, an homage to neurosurgery, is one of her most recognizable public art pieces.',
-    url: 'https://i.imgur.com/Mx7dA2Y.jpg',
-    alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'  
+    description: 'HTML (Hypertext Markup Language) is a standard language used for creating web pages. It consists of tags that structure and format content, defining elements like headings, paragraphs, links, images, and more. HTML documents are interpreted by web browsers to display text, images, multimedia, and interactive elements on the internet.',
+    url: html,
+    alt: 'HTML Mastery'  
   }, {
     name: 'CSS Mastery',
     artist: 'Coding World',
-    description: 'This enormous (75 ft. or 23m) silver flower is located in Buenos Aires. It is designed to move, closing its petals in the evening or when strong winds blow and opening them in the morning.',
-    url: 'https://i.imgur.com/ZF6s192m.jpg',
-    alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
+    description: "CSS3 stands for Cascading Style Sheets 3. It's a web technology used for styling the appearance of HTML elements. CSS3 introduced new features like gradients, transitions, animations, and media queries, enabling enhanced design and responsiveness. It enhances the visual presentation and layout of web pages.",
+    url: css,
+    alt: 'CSS Mastery'
   }, {
     name: 'JavaScript Mastery',
     artist: 'CodeMastermindHQ',
-    description: 'Wilson was known for his preoccupation with equality, social justice, as well as the essential and spiritual qualities of humankind. This massive (7ft. or 2,13m) bronze represents what he described as "a symbolic Black presence infused with a sense of universal humanity."',
-    url: 'https://i.imgur.com/aTtVpES.jpg',
-    alt: 'The sculpture depicting a human head seems ever-present and solemn. It radiates calm and serenity.'
+    description: 'JavaScript is a high-level, interpreted programming language primarily used for web development. It enables interactive elements, dynamic content, and client-side functionality on websites. It supports object-oriented and event-driven programming paradigms, enhancing user experience and interactivity.',
+    url: javascript,
+    alt: 'JavaScript Mastery'
   }, {
     name: 'React Mastery',
     artist: 'Ajay Dhangar',
-    description: 'Located on the Easter Island, there are 1,000 moai, or extant monumental statues, created by the early Rapa Nui people, which some believe represented deified ancestors.',
-    url: 'https://i.imgur.com/RCwLEoQm.jpg',
-    alt: 'Three monumental stone busts with the heads that are disproportionately large with somber faces.'
+    description: 'React is a popular JavaScript library for building user interfaces. It enables developers to create reusable UI components and efficiently update the UI when data changes. React follows a component-based architecture and uses a virtual DOM for optimized rendering, enhancing web application performance.',
+    url: react,
+    alt: 'React Mastery'
   }, {
     name: 'MongoDB Mastery',
     artist: 'CodeMastermindHQ',
-    description: 'The Nanas are triumphant creatures, symbols of femininity and maternity. Initially, Saint Phalle used fabric and found objects for the Nanas, and later on introduced polyester to achieve a more vibrant effect.',
-    url: 'https://i.imgur.com/Sd1AgUOm.jpg',
-    alt: 'A large mosaic sculpture of a whimsical dancing female figure in a colorful costume emanating joy.'
+    description: "MongoDB is a popular open-source NoSQL database management system. It uses a flexible document model and JSON-like documents for data storage, enabling scalability and high performance. MongoDB's features include dynamic schemas, horizontal scalability, powerful querying, and automatic sharding, making it suitable for modern application development.",
+    url: mongodb,
+    alt: 'MongoDB Mastery'
   }, {
-    name: 'Git & GitHub Mastery',
+    name: 'Git Mastery',
     artist: 'CodeMastermindHQ',
-    description: 'This abstract bronze sculpture is a part of The Family of Man series located at Yorkshire Sculpture Park. Hepworth chose not to create literal representations of the world but developed abstract forms inspired by people and landscapes.',
-    url: 'https://i.imgur.com/2heNQDcm.jpg',
-    alt: 'A tall sculpture made of three elements stacked on each other reminding of a human figure.'
-  }, {
-    name: 'DSA Mastery',
-    artist: 'Ajay Dhangar',
-    description: "Descended from four generations of woodcarvers, Fakeye's work blended traditional and contemporary Yoruba themes.",
-    url: 'https://i.imgur.com/wIdGuZwm.png',
-    alt: 'An intricate wood sculpture of a warrior with a focused face on a horse adorned with patterns.'
-  }, {
+    description: 'Git is a distributed version control system widely used in software development. It efficiently tracks changes to files, allows collaborative work, and enables branching, merging, and reverting. Git offers flexibility, speed, and reliability, making it essential for managing source code and project history.',
+    url: git,
+    alt: 'Git Mastery'
+  },{
+    name: 'GitHub Mastery',
+    artist: 'CodeMastermindHQ',
+    description: 'GitHub is a web-based platform that enables version control and collaborative software development. It allows users to host, review, and manage code repositories, facilitating team collaboration and tracking changes. GitHub provides a centralized hub for code sharing, issue tracking, and project management, supporting open-source and private projects alike.',
+    url: github,
+    alt: 'GitHub Mastery'
+  },{
     name: 'Node Mastery',
     artist: 'CodeMastermindHQ',
-    description: "Szapocznikow is known for her sculptures of the fragmented body as a metaphor for the fragility and impermanence of youth and beauty. This sculpture depicts two very realistic large bellies stacked on top of each other, each around five feet (1,5m) tall.",
-    url: 'https://i.imgur.com/AlHTAdDm.jpg',
-    alt: 'The sculpture reminds a cascade of folds, quite different from bellies in classical sculptures.'
+    description: "Node.js is a JavaScript runtime environment that allows developers to execute JavaScript code outside of a web browser. It's built on Chrome's V8 JavaScript engine and enables server-side scripting, making it efficient for building scalable and high-performance web applications.",
+    url: node,
+    alt: 'Node Mastery'
   }, {
-    name: 'Express Mastery ',
+    name: 'Express Mastery',
     artist: 'Ajay Dhangar',
-    description: 'The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China. The army consisted of more than 8,000 soldiers, 130 chariots with 520 horses, and 150 cavalry horses.',
-    url: 'https://i.imgur.com/HMFmH6m.jpg',
-    alt: '12 terracotta sculptures of solemn warriors, each with a unique facial expression and armor.'
-  }, {
-    name: 'Java Mastery',
-    artist: 'Ajay Dhangar',
-    description: 'Nevelson was known for scavenging objects from New York City debris, which she would later assemble into monumental constructions. In this one, she used disparate parts like a bedpost, juggling pin, and seat fragment, nailing and gluing them into boxes that reflect the influence of Cubism’s geometric abstraction of space and form.',
-    url: 'https://i.imgur.com/rN7hY6om.jpg',
-    alt: 'A black matte sculpture where the individual elements are initially indistinguishable.'
+    description: 'Express.js is a minimalistic and flexible web application framework for Node.js. It simplifies the creation of web servers and APIs, providing robust routing and middleware support. With its lightweight design and extensive ecosystem, Express.js allows developers to build scalable and efficient web applications quickly.',
+    url: express,
+    alt: 'Express Mastery'
   },];
   

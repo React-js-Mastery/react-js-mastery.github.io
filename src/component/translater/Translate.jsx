@@ -57,7 +57,7 @@ function Translate() {
                             {opt.name}
                         </option>
                     ))}
-                </select>
+                </select> <span> </span>
                 To ({to}) :
                 <select onChange={(e) => setTo(e.target.value)} className='translate-select'>
                     {options.map((opt) => (

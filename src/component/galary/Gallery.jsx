@@ -10,7 +10,7 @@ export default function Gallery() {
     setIndex(index + 1);
   }
   function handlePreviewClick() {
-    setIndex(index - 1);
+    setIndex(index - 1);    
   }
 
   function handleMoreClick() {
@@ -23,12 +23,12 @@ export default function Gallery() {
       <div className="clicked-buttons">
         <div className="preview">
           <button className='btn preBtn' onClick={handlePreviewClick}>
-            Preview
+            {(index + 1 === (sculptureList.length-(sculptureList.length-1))) ? "Don't Click"  : 'Preview'}
           </button>
         </div>
         <div className="next">
           <button className='btn nextBtn' onClick={handleNextClick}>
-            Next
+          {(index + 1 === sculptureList.length) ? "Don't Click"  : 'Next'}
           </button>
         </div>
       </div>
