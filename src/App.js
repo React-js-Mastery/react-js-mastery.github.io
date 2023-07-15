@@ -1,17 +1,16 @@
 
 import React from 'react'; // , { useEffect }
 
-import Profile from "./component/profile/Profile";
-import Video from "./component/video/Video";
+import { Profile, Video, VideoArrayObject, Gallery } from "./component";
+// import { HandlingEvents } from "./basic-learning-concepts";
+
+import Translate from "./component/translater/Translate";
 
 import AjImg from './images/thumb/thunb.png';
 import CodeImg from './images/thumb/thunb.png';
-import Translate from './component/translater/Translate';
 
 import "./App.css";
-import VideoArrayObject from './component/video/VideoArrayObject';
 
-import Gallery from './component/galary/Gallery'
 // const MyAge = () => {
 //   const age = 22;
 //   useEffect(() => {
@@ -120,12 +119,19 @@ function App() {
   return (
     <>
       <div className="App">
+        {/* 
+        <div className='my-navbar'>
+          <Navbar />
+        </div> */}
+
         <h1>Hello Everyone! Well Come to my Site.</h1>
         {/* <h1>Hello World!</h1> */}
         {/* <Name /> */}
         {/* <MyAge /> */}
 
-        <Profile />
+        <div className='main-profile'>
+          <Profile />
+        </div>
         <div className='gallery'>
           <Gallery />
         </div>
@@ -142,22 +148,33 @@ function App() {
         <div className='resolve-issue'></div>
 
         <div className='title-of-video'><h2>All Courses</h2></div>
-        {
-          myVideos.map(video => <VideoArrayObject className="myAllVideo"
-            id={video.id}
-            image={video.image}
-            title={video.title}
-            channel={video.channel}
-            view={video.view}
-            time={video.time}
-            verified={video.verified}
-          />
-          )
-        }
-
+        <div className="myAllCourses">
+          {
+            myVideos.map(video => <VideoArrayObject className="myAllVideo"
+              id={video.id}
+              image={video.image}
+              title={video.title}
+              channel={video.channel}
+              view={video.view}
+              time={video.time}
+              verified={video.verified}
+            />
+            )
+          }
+        </div>
         <div className="translate">
           <Translate />
         </div>
+
+        <div className='basic-concepts'>
+          <hr />
+          <h3 style={{ textAlign: 'center' }}>Learn Basic Concepts</h3>
+          <hr />
+          {/* <div>
+            <HandlingEvents />
+          </div> */}
+        </div>
+
 
       </div>
     </>

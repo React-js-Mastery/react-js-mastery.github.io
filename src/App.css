@@ -20,11 +20,11 @@ fieldset {
   display: flex;
   flex-wrap: wrap;
 }
-.title-of-video{
-  text-align: center;
+.title-of-video{  
   font-size: 26px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .gallery{
   /* clear: both; */
@@ -46,4 +46,13 @@ h1:hover{
 }
 .translate{
   clear: both;
+}
+.myAllCourses, .videos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-profile{
+  margin-top: 130px;
 }

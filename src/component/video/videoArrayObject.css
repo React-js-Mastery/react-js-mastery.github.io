@@ -8,4 +8,13 @@
 }
 .video-container:hover{
     box-shadow: 4px 4px 8px #262626;
+    color: green;    
+    text-shadow: 2px 2px 4px #ffffff;
+}
+.best{
+    color: rgb(88, 16, 124);
+}
+.best:hover{
+    color: rgb(255, 247, 247);
+    text-shadow: 2px 2px 4px #262626;
 }

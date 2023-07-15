@@ -10,7 +10,7 @@ export default function Gallery() {
     setIndex(index + 1);
   }
   function handlePreviewClick() {
-    setIndex(index - 1);    
+    setIndex(index - 1);
   }
 
   function handleMoreClick() {
@@ -20,18 +20,6 @@ export default function Gallery() {
   let sculpture = sculptureList[index];
   return (
     <section className='my-gallery'>
-      <div className="clicked-buttons">
-        <div className="preview">
-          <button className='btn preBtn' onClick={handlePreviewClick}>
-            {(index + 1 === (sculptureList.length-(sculptureList.length-1))) ? "Don't Click"  : 'Preview'}
-          </button>
-        </div>
-        <div className="next">
-          <button className='btn nextBtn' onClick={handleNextClick}>
-          {(index + 1 === sculptureList.length) ? "Don't Click"  : 'Next'}
-          </button>
-        </div>
-      </div>
       <h2>
         <i>{sculpture.name} </i>
         by {sculpture.artist}
@@ -53,6 +41,19 @@ export default function Gallery() {
             src={sculpture.url}
             alt={sculpture.alt}
           />
+        </div>
+      </div>
+      <div className="clicked-buttons">
+        <div className="preview">
+          <button className='btn preBtn' onClick={handlePreviewClick} style={(index + 1 === (sculptureList.length - (sculptureList.length - 1))) ? { backgroundColor: 'red', color: '#fff' } : {}}>
+            {(index + 1 === (sculptureList.length - (sculptureList.length - 1))) ? "Don't Click" : 'Preview'}
+
+          </button>
+        </div>
+        <div className="next">
+          <button className='btn nextBtn' onClick={handleNextClick} style={(index + 1 === sculptureList.length) ? { backgroundColor: 'red', color: '#fff' } : {}}>
+            {(index + 1 === sculptureList.length) ? "Don't Click" : 'Next'}
+          </button>
         </div>
       </div>
     </section>
