@@ -1,0 +1,23 @@
+.items-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.items{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;    
+    font-family: sans-serif;
+}
+header{
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid red;
+}
+.H-msg{
+    text-align: center;
+}
+.items a{
+    text-decoration: none;
+}

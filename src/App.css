@@ -54,5 +54,9 @@ h1:hover{
 }
 
 .main-profile{
-  margin-top: 130px;
+  margin-top: 130px;  
+}
+.myNewStyle{
+  text-decoration: none;
+  color: red;
 }

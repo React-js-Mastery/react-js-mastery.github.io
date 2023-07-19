@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+}
+p{
+    line-height: 30px;
+    font-size: 18px;
+    margin: 5px;
+}
+.content{
+    width: 90%;
+    text-align: center;
+}
