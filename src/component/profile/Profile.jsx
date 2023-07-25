@@ -11,10 +11,12 @@ import './Profile.css'
 function Profile() {
   return (
     <div>
-      <div className="users">
-        <Users img={img1} title="Software Engineer" age={22} name='Ajay Dhangar' />
-        <Users img={img2} title="Web Developer" age={25} name='Shivaya Coder' />
-      </div>
+      <section className="about section">
+        <div className="users">
+          <Users img={img1} title="Software Engineer" age={22} name='Ajay Dhangar' />
+          <Users img={img2} title="Web Developer" age={25} name='Shivaya Coder' />
+        </div>
+      </section>
     </div>
   )
 }

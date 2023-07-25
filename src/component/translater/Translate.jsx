@@ -14,7 +14,7 @@ function Translate() {
     const [output, setOutput] = useState('');
 
     const translate = () => {
-        
+
         const params = new URLSearchParams();
         params.append('q', input);
         params.append('source', from);
@@ -47,8 +47,8 @@ function Translate() {
 
 
     return (
-        <div className='translate-div translate-container'>
-            <h2 style={{textAlign:'center'}}>Language Translator</h2>
+        <section className='about section'> <div className='translate-div translate-container'>
+            <h2 style={{ textAlign: 'center' }}>Language Translator</h2>
             <div className='translate-div'>
                 From ({from}) :
                 <select onChange={(e) => setFrom(e.target.value)} className='translate-select'>
@@ -71,8 +71,9 @@ function Translate() {
                 <textarea cols="50" rows="8" onInput={(e) => setInput(e.target.value)}></textarea>
                 <textarea cols="50" rows="8" value={output}></textarea>
             </div>
-            <button className='translate-btn' onClick={e=>translate()}>Translate</button>
-        </div>
+            <button className='translate-btn' onClick={e => translate()}>Translate</button>
+        </div></section>
+
     )
 }
 

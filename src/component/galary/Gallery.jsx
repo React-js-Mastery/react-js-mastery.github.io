@@ -19,7 +19,7 @@ export default function Gallery() {
 
   let sculpture = sculptureList[index];
   return (
-    <section className='my-gallery'>
+    <section className='about section'>
       <h2>
         <i>{sculpture.name} </i>
         by {sculpture.artist}
