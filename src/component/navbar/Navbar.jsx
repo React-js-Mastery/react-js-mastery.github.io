@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import '../../css/skins/color-1.css'
 import '../../css/skins/color-2.css'
@@ -8,18 +8,25 @@ import '../../css/skins/color-5.css'
 import '../../css/hero-style.css'
 import '../../css/hero-style.css'
 import '../../css/style-switcher.css'
+
 import { Link } from 'react-router-dom'
 
 function Navbar() {
+    const [isAsideOpen, setIsAsideOpen] = useState(false);
+
+    const toggleAside = () => {
+        setIsAsideOpen((prev) => !prev);
+    };
+   
     return (
         <div>
             {/* <!--==== aside Start ==--> */}
 
-            <div className="aside">
+            <div className={`aside ${isAsideOpen ? 'open' : ''}`}>
                 <div className="logo">
                     <Link to="/"><span>R</span>Js <span>M</span></Link>
                 </div>
-                <div className="nav-toggler">
+                <div className="nav-toggler" onClick={toggleAside}>
                     <span></span>
                 </div>
 
@@ -54,9 +61,9 @@ function Navbar() {
             {/* <!--==== aside End ==--> */}
 
             <section className='about section'>
-                <div style={{marginTop: '100px' }}>
+                <div style={{ marginTop: '100px' }}>
                     <h2>Hello World</h2>
-                    <h2 style={{color:'orange', marginTop:'50px'}}>Welcome to My React Learning and persionl Working site.</h2>
+                    <h2 style={{ color: 'orange', marginTop: '50px' }}>Welcome to My React Learning and persionl Working site.</h2>
                 </div>
             </section>
         </div>
