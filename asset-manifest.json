@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.46749783.css",
-    "main.js": "/static/js/main.9a898513.js",
+    "main.js": "/static/js/main.df8f5c30.js",
     "static/media/thunb.png": "/static/media/thunb.5319c64ac076a309e549.png",
     "static/media/img.jpg": "/static/media/img.8026cf86b7d6dbcd6796.jpg",
     "static/media/Ajay-Dhangar.jpg": "/static/media/Ajay-Dhangar.d3fc001d6903f2e10d84.jpg",
@@ -12,14 +12,14 @@
     "static/media/javascript.svg": "/static/media/javascript.b0c691a890bf57db1f87523384aaf3a4.svg",
     "static/media/github.svg": "/static/media/github.b3d09eb58a6f234b8deba278a41e3479.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.e724ad15967faee78912f00241651cad.svg",
-    "index.html": "/index.html",
     "static/media/git.svg": "/static/media/git.4923210e3334eac537d01ec71a20863c.svg",
+    "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.4e2ab8ccc39dc599dd234fb733cb65ed.svg",
     "main.46749783.css.map": "/static/css/main.46749783.css.map",
-    "main.9a898513.js.map": "/static/js/main.9a898513.js.map"
+    "main.df8f5c30.js.map": "/static/js/main.df8f5c30.js.map"
   },
   "entrypoints": [
     "static/css/main.46749783.css",
-    "static/js/main.9a898513.js"
+    "static/js/main.df8f5c30.js"
   ]
 }
