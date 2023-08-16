@@ -260,25 +260,7 @@ function About() {
                               >
                             </button>
                           </p>
-                        </div>
-                        <div className="timeline-item">
-                          <div className="circle-dot"></div>
-                          <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> Apr 2022
-                          </h3>
-                          <h4 className="timeline-title">Edureka</h4>
-                          <p className="timeline-text">
-                            Certificate : Web Development Internship Demo
-                            Session - Edureka <br /><button>
-                              <a
-                                href="https://www.linkedin.com/posts/ajay-dhangar-bb89b4227_web-development-internship-demo-session-activity-6931989600961777664-bH3h/"
-                                style={{color: '#ffffff'}}
-                              >
-                                Show credential</a
-                              >
-                            </button>
-                          </p>
-                        </div>
+                        </div>                        
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
