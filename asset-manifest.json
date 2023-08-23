@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.46749783.css",
-    "main.js": "/static/js/main.df8f5c30.js",
+    "main.css": "/static/css/main.2e28a324.css",
+    "main.js": "/static/js/main.adeb8e9e.js",
     "static/media/thunb.png": "/static/media/thunb.5319c64ac076a309e549.png",
     "static/media/img.jpg": "/static/media/img.8026cf86b7d6dbcd6796.jpg",
     "static/media/Ajay-Dhangar.jpg": "/static/media/Ajay-Dhangar.d3fc001d6903f2e10d84.jpg",
@@ -15,11 +15,11 @@
     "static/media/git.svg": "/static/media/git.4923210e3334eac537d01ec71a20863c.svg",
     "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.4e2ab8ccc39dc599dd234fb733cb65ed.svg",
-    "main.46749783.css.map": "/static/css/main.46749783.css.map",
-    "main.df8f5c30.js.map": "/static/js/main.df8f5c30.js.map"
+    "main.2e28a324.css.map": "/static/css/main.2e28a324.css.map",
+    "main.adeb8e9e.js.map": "/static/js/main.adeb8e9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.46749783.css",
-    "static/js/main.df8f5c30.js"
+    "static/css/main.2e28a324.css",
+    "static/js/main.adeb8e9e.js"
   ]
 }
