@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import './Translate.css';
+import { Link } from 'react-router-dom';
 
 // const axios = require('axios').default;
 
@@ -48,6 +49,18 @@ function Translate() {
 
     return (
         <section className='about section'> <div className='translate-div translate-container'>
+            <h2>My Web Features</h2>
+            <div className="content">
+                <ul className='items-container'>
+                    <li className='items'><Link to={'/Translate'}>Language Translater</Link></li>
+                    <li className='items'><Link to={'/Profile'}>Profile</Link></li>
+                    <li className='items'><Link to={'/Gallery'}>Gallery</Link></li>
+                    <li className='items'><Link to={'/Interview'}>Interview</Link></li>
+                </ul>
+            </div>
+
+            <br />
+
             <h2 style={{ textAlign: 'center' }}>Language Translator</h2>
             <div className='translate-div'>
                 From ({from}) :

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { sculptureList } from '../../data/data';
 import './Gallery.css';
+import { Link } from 'react-router-dom';
 
 export default function Gallery() {
   const [index, setIndex] = useState(0);
@@ -20,6 +21,19 @@ export default function Gallery() {
   let sculpture = sculptureList[index];
   return (
     <section className='about section'>
+
+      <h2>My Web Features</h2>
+      <div className="content">
+        <ul className='items-container'>
+          <li className='items'><Link to={'/Translate'}>Language Translater</Link></li>
+          <li className='items'><Link to={'/Profile'}>Profile</Link></li>
+          <li className='items'><Link to={'/Gallery'}>Gallery</Link></li>
+          <li className='items'><Link to={'/Interview'}>Interview</Link></li>
+        </ul>
+      </div>
+
+      <br />
+
       <h2>
         <i>{sculpture.name} </i>
         by {sculpture.artist}

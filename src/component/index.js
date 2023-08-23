@@ -6,4 +6,4 @@ export {default as VideoArrayObject} from './video/VideoArrayObject';
 // export {default as Banner} from './banner/Banner';
 // export {default as Counter} from './count/Counter';
 // export {default as Navbar} from './navbar/Navbar';
-// export {default as } from '';
+export {default as Interview } from './react-interview/Interview';

@@ -7,7 +7,7 @@ import Docs from './pages/docs/Docs';
 import Skill from "./pages/skills/Skill";
 import Contect from './pages/contect/Contect';
 import Feature from './pages/feature/Feature';
-import { Profile, Gallery } from "./component";
+import { Profile, Gallery, Interview } from "./component";
 import Translate from './component/translater/Translate'
 // import Navbar from './component/navbar/Navbar';
 
@@ -33,12 +33,10 @@ function App() {
         <Route path='/Profile' element={<Profile/>}/>
         <Route path='/Gallery' element={<Gallery/>}/>
         <Route path='/Translate' element={<Translate/>}/>
+        <Route path='/Interview' element={<Interview/>}/>
       </Routes>
      
       {/* <Button/>       */}
-
-   
-
       
     </div>
   )

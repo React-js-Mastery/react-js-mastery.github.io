@@ -6,7 +6,6 @@ import '../../css/skins/color-3.css'
 import '../../css/skins/color-4.css'
 import '../../css/skins/color-5.css'
 import '../../css/hero-style.css'
-import '../../css/hero-style.css'
 import '../../css/style-switcher.css'
 
 import { Link } from 'react-router-dom'
@@ -24,7 +23,7 @@ function Navbar() {
 
             <div className={`aside ${isAsideOpen ? 'open' : ''}`}>
                 <div className="logo">
-                    <Link to="/"><span>R</span>Js <span>M</span></Link>
+                    <Link to="/"><span>React </span>Js</Link>
                 </div>
                 <div className="nav-toggler" onClick={toggleAside}>
                     <span></span>
@@ -41,7 +40,7 @@ function Navbar() {
                         <Link to="/Services"><i className="fa fa-list"></i> Services </Link>
                     </li>
                     <li>
-                        <Link to="/"><i className="fa fa-briefcase"></i> Portfolio </Link>
+                        <Link to="/Portfolio"><i className="fa fa-briefcase"></i> Portfolio </Link>
                     </li>
                     <li>
                         <Link to="/Docs"><i className="fa fa-comments"></i> Blog/Articles </Link>
@@ -53,7 +52,7 @@ function Navbar() {
                         <Link to="/Skills"><i className="fa fa-comments"></i> Skills </Link>
                     </li>
                     <li>
-                        <Link to="/"><i className="fa fa-comments"></i> Contact </Link>
+                        <Link to="/Contact"><i className="fa fa-comments"></i> Contact </Link>
                     </li>
                 </ul>
             </div>
